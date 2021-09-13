@@ -18,8 +18,8 @@ body{
 }
 
 .content{
-    margin-top: 80%;
-    margin-left: 35%;   
+    margin-top: 60%;
+    margin-left: 20%;   
 }
 .contato{
     width: 100%;
@@ -31,18 +31,26 @@ body{
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin-top: 2%;
 
 }
 #field{
     cursor: pointer;
+    margin-top: 4%;
 }
 </style>
 </head>
 
 <body>
     <section class="content">
-        <div class="contato">         
-                <a href="niveis.html"><input class="field" id="field" type="submit" value="Iniciar Aplicação"></a><br>
+        <div class="contato">     
+          <form id="cadastroNivel">
+                Realize o seu Login:<br><br>
+                <input class="field" type="text" name="login" id="login" placeholder="Login"><br>
+                <input class="field" type="password" name="senha" id="senha" placeholder="Senha"><br>
+                <input class="field" id="field" type="submit" value="Cadastrar"><br>
+          </form>
+                <!-- <a href="niveis.html"><input class="field" id="field" type="submit" value="Iniciar Aplicação"></a><br> -->
         </div>
     </section>
 </body>
